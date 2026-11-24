@@ -18,7 +18,7 @@ class StaffAttendanceApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color(0xFF0A0A0A),
         primaryColor: const Color(0xFF00E5FF),
         textTheme: GoogleFonts.interTextTheme(
-          Theme.of(context).textTheme.apply(
+          ThemeData.dark().textTheme.apply(
             bodyColor: Colors.white70,
             displayColor: Colors.white,
           ),
